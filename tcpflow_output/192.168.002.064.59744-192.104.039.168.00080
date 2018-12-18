@@ -1,0 +1,62 @@
+GET /1.1/img/jquery.cycle.lite.1.0.min.js HTTP/1.1
+Host: www.theplantlist.org
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:60.0) Gecko/20100101 Firefox/60.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.theplantlist.org/
+Cookie: qqd10-7tcw301jmk_r=0; qqd10-7tcw301jmk_s=24921740; qqd10-7tcw301jmk_i=8; qqd10-7tcw301jmk_vt=1544971117998; __utma=7637111.1333176101.1544967181.1544967181.1544971091.2; __utmc=7637111; __utmz=7637111.1544971091.2.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); __utmb=7637111.3.10.1544971091; __utmt=1
+Connection: keep-alive
+If-Modified-Since: Fri, 21 Sep 2018 15:49:04 GMT
+If-None-Match: "f28-57663943d0528-gzip"
+Cache-Control: max-age=0
+
+GET /1.1/img/logo-ildis.png HTTP/1.1
+Host: www.theplantlist.org
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:60.0) Gecko/20100101 Firefox/60.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.theplantlist.org/
+Cookie: qqd10-7tcw301jmk_r=0; qqd10-7tcw301jmk_s=24921740; qqd10-7tcw301jmk_i=9; qqd10-7tcw301jmk_vt=1544971480934; __utma=7637111.1333176101.1544967181.1544967181.1544971091.2; __utmc=7637111; __utmz=7637111.1544971091.2.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); __utmb=7637111.3.10.1544971091; __utmt=1
+Connection: keep-alive
+If-Modified-Since: Fri, 21 Sep 2018 15:49:04 GMT
+If-None-Match: "d45-57663943eab08"
+Cache-Control: max-age=0
+
+GET /1.1/img/logo-rbge.png HTTP/1.1
+Host: www.theplantlist.org
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:60.0) Gecko/20100101 Firefox/60.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.theplantlist.org/
+Cookie: qqd10-7tcw301jmk_r=0; qqd10-7tcw301jmk_s=24921740; qqd10-7tcw301jmk_i=9; qqd10-7tcw301jmk_vt=1544971480934; __utma=7637111.1333176101.1544967181.1544967181.1544971091.2; __utmc=7637111; __utmz=7637111.1544971091.2.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); __utmb=7637111.3.10.1544971091; __utmt=1
+Connection: keep-alive
+If-Modified-Since: Fri, 21 Sep 2018 15:49:04 GMT
+If-None-Match: "11e9-576639442d188"
+Cache-Control: max-age=0
+
+GET /1.1/img/main-bg.jpg HTTP/1.1
+Host: www.theplantlist.org
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:60.0) Gecko/20100101 Firefox/60.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.theplantlist.org/1.1/img/tpl.css
+Cookie: qqd10-7tcw301jmk_r=0; qqd10-7tcw301jmk_s=24921740; qqd10-7tcw301jmk_i=9; qqd10-7tcw301jmk_vt=1544971480934; __utma=7637111.1333176101.1544967181.1544967181.1544971091.2; __utmc=7637111; __utmz=7637111.1544971091.2.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); __utmb=7637111.3.10.1544971091; __utmt=1
+Connection: keep-alive
+If-Modified-Since: Fri, 21 Sep 2018 15:49:05 GMT
+If-None-Match: "2003-5766394490b48"
+Cache-Control: max-age=0
+
+GET /1.1/img/photo/g-07.jpg HTTP/1.1
+Host: www.theplantlist.org
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:60.0) Gecko/20100101 Firefox/60.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.theplantlist.org/
+Cookie: qqd10-7tcw301jmk_r=0; qqd10-7tcw301jmk_s=24921740; qqd10-7tcw301jmk_i=9; qqd10-7tcw301jmk_vt=1544971480934; __utma=7637111.1333176101.1544967181.1544967181.1544971091.2; __utmc=7637111; __utmz=7637111.1544971091.2.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); __utmb=7637111.3.10.1544971091; __utmt=1
+Connection: keep-alive
+

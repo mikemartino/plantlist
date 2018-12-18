@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width='82px' height='82px' xmlns='http://www.w3.org/2000/svg' version='1.1'>
+<script type='text/javascript'><![CDATA[
+	var hi = function(elem, state) {
+		if (typeof parent.pie === 'function') {
+			o = 1.0;
+			if (state) o = 0.333;
+			document.getElementById('biacc').setAttribute('opacity', o);
+			document.getElementById('bisyn').setAttribute('opacity', o);
+			document.getElementById('biuna').setAttribute('opacity', o);
+			document.getElementById(elem).setAttribute('opacity', '1.0');
+			parent.pie(elem, state);
+		}
+	}
+	document.method = hi;
+]]></script>
+<path id='biacc' d='M 41,41 l 40.000000,-0.000000 a40.000000,40.000000 0 0,0 -59.197155,-35.092296 z' fill='#006327' stroke='black' stroke-width='0.75' stroke-linejoin='round' onmouseover="hi('biacc', true)" onmouseout="hi('biacc', false)"/>
+<path id='bisyn' d='M 41,41 l -19.197155,-35.092296 a40.000000,40.000000 0 0,0 24.726451,74.708289 z' fill='#7dc242' stroke='black' stroke-width='0.75' stroke-linejoin='round' onmouseover="hi('bisyn', true)" onmouseout="hi('bisyn', false)"/>
+<path id='biuna' d='M 41,41 l 5.529296,39.615993 a40.000000,40.000000 0 0,0 34.470704,-39.615993 z' fill='#dad7a6' stroke='black' stroke-width='0.75' stroke-linejoin='round' onmouseover="hi('biuna', true)" onmouseout="hi('biuna', false)"/>
+</svg>

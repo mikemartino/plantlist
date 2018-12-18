@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://afflib.org/tcpflow/' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Feature Extraction</dc:type>
+  </metadata>
+  <creator version='1.0'>
+    <program>TCPFLOW</program>
+    <version>1.5.1</version>
+    <build_environment>
+      <compiler>8.2.0 (8.2.0)</compiler>
+      <CPPFLAGS>-pthread -I/usr/local/include -I/usr/local/include -Wdate-time -D_FORTIFY_SOURCE=2 -DUTC_OFFSET=+0000 </CPPFLAGS>
+      <CFLAGS>-g   -pthread -g -O3 -fdebug-prefix-map=/build/tcpflow-uz6sNY/tcpflow-1.5.2+repack1=. -fstack-protector-strong -Wformat -Werror=format-security -MD -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wshadow -Wwrite-strings -Wcast-align -Waggregate-return -Wbad-function-cast -Wcast-qual -Wundef -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wc++-compat -Wmissing-noreturn -Wall -Wstrict-prototypes -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wshadow -Wwrite-strings -Wcast-align -Waggregate-return -Wbad-function-cast -Wcast-qual -Wundef -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wc++-compat -Wmissing-noreturn -Wall -Wstrict-prototypes</CFLAGS>
+      <CXXFLAGS>-g -pthread -g -O3 -fdebug-prefix-map=/build/tcpflow-uz6sNY/tcpflow-1.5.2+repack1=. -fstack-protector-strong -Wformat -Werror=format-security -Wall -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wshadow -Wwrite-strings -Wcast-align -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wmissing-noreturn -Woverloaded-virtual -Wsign-promo -funit-at-a-time -Weffc++ -Wno-address-of-packed-member -Wall -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wshadow -Wwrite-strings -Wcast-align -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wmissing-noreturn -Woverloaded-virtual -Wsign-promo -funit-at-a-time -Wstrict-null-sentinel -Weffc++ </CXXFLAGS>
+      <LDFLAGS>-L/usr/local/lib -L/usr/local/lib -Wl,-z,relro</LDFLAGS>
+      <LIBS>-lpcap -lcairo -lfontconfig -lfreetype -lpixman-1 -lexpat  -lcrypto -lssl -lcrypto -ldl -lz </LIBS>
+      <compilation_date>2018-11-21T18:06:45</compilation_date>
+      <library name="boost" version="106700"/>
+    </build_environment>
+    <execution_environment>
+      <cpuid>
+        <identification>ineIntel</identification>
+        <family>6</family>
+        <model>7</model>
+        <stepping>10</stepping>
+        <efamily>0</efamily>
+        <emodel>1</emodel>
+        <brand>124</brand>
+        <clflush_size>1080</clflush_size>
+        <nproc>235</nproc>
+        <apicid>191</apicid>
+        <L1_cache_size>1048576</L1_cache_size>
+      </cpuid>
+      <os_sysname>Linux</os_sysname>
+      <os_release>4.9.0-4-686</os_release>
+      <os_version>#1 SMP Debian 4.9.65-3+deb9u1 (2017-12-23)</os_version>
+      <host>mmartin</host>
+      <arch>i686</arch>
+      <command_line>tcpflow -a -o plantlist_tcpflow -r plantlist.pcap</command_line>
+      <uid>1000</uid>
+      <username>mike</username>
+      <start_time>2018-12-16T14:46:06Z</start_time>
+    </execution_environment>
+  </creator>
+  <configuration>
+  </configuration>
+  <tdelta>0</tdelta>
+  <configuration>
+    <fileobject>
+      <filename>plantlist_tcpflow/192.104.039.168.00080-192.168.002.064.59742</filename>
+      <filesize>39017</filesize>
+      <tcpflow startime='2018-12-16T14:44:40.566363Z' endtime='2018-12-16T14:44:41.413221Z' mac_daddr='78:e4:00:6b:58:1a' mac_saddr='b8:ee:0e:bb:4d:bc' family='2' src_ipn='192.104.39.168' dst_ipn='192.168.2.64' srcport='80' dstport='59742' packets='33' len='41203' />
+      <hashdigest type='MD5'>32356b95d864c51416221af93775fd53</hashdigest>
+    <byte_runs>
+     <byte_run file_offset='337'><fileobject><filename>plantlist_tcpflow/192.104.039.168.00080-192.168.002.064.59742-HTTPBODY-001.css</filename><filesize>13955</filesize></fileobject></byte_run>
+     <byte_run file_offset='4534'><fileobject><filename>plantlist_tcpflow/192.104.039.168.00080-192.168.002.064.59742-HTTPBODY-005.jpg</filename><filesize>34483</filesize></fileobject></byte_run>
+    </byte_runs>
+    </fileobject>
+    <fileobject>
+      <filename>plantlist_tcpflow/192.104.039.168.00080-192.168.002.064.59738</filename>
+      <filesize>49590</filesize>
+      <tcpflow startime='2018-12-16T14:44:40.488613Z' endtime='2018-12-16T14:44:41.526488Z' mac_daddr='78:e4:00:6b:58:1a' mac_saddr='b8:ee:0e:bb:4d:bc' family='2' src_ipn='192.104.39.168' dst_ipn='192.168.2.64' srcport='80' dstport='59738' packets='43' out_of_order_count='1' len='53193' />
+      <hashdigest type='MD5'>8b6aa715f2e28921adb215704b618128</hashdigest>
+    <byte_runs>
+     <byte_run file_offset='351'><fileobject><filename>plantlist_tcpflow/192.104.039.168.00080-192.168.002.064.59738-HTTPBODY-001.js</filename><filesize>14455</filesize></fileobject></byte_run>
+     <byte_run file_offset='6263'><fileobject><filename>plantlist_tcpflow/192.104.039.168.00080-192.168.002.064.59738-HTTPBODY-007.jpg</filename><filesize>43327</filesize></fileobject></byte_run>
+    </byte_runs>
+    </fileobject>
+    <fileobject>
+      <filename>plantlist_tcpflow/192.104.039.168.00080-192.168.002.064.59736</filename>
+      <filesize>11390</filesize>
+      <tcpflow startime='2018-12-16T14:44:40.481364Z' endtime='2018-12-16T14:44:41.375171Z' mac_daddr='78:e4:00:6b:58:1a' mac_saddr='b8:ee:0e:bb:4d:bc' family='2' src_ipn='192.104.39.168' dst_ipn='192.168.2.64' srcport='80' dstport='59736' packets='17' out_of_order_count='1' len='13397' />
+      <hashdigest type='MD5'>6c39c46db030952c4c713c8203a81f37</hashdigest>
+    <byte_runs>
+     <byte_run file_offset='351'><fileobject><filename>plantlist_tcpflow/192.104.039.168.00080-192.168.002.064.59736-HTTPBODY-001.js</filename><filesize>16520</filesize></fileobject></byte_run>
+     <byte_run file_offset='5569'><fileobject><filename>plantlist_tcpflow/192.104.039.168.00080-192.168.002.064.59736-HTTPBODY-003.svg</filename><filesize>1449</filesize></fileobject></byte_run>
+     <byte_run file_offset='7575'><fileobject><filename>plantlist_tcpflow/192.104.039.168.00080-192.168.002.064.59736-HTTPBODY-006.png</filename><filesize>3628</filesize></fileobject></byte_run>
+    </byte_runs>
+    </fileobject>
+    <fileobject>
+      <filename>plantlist_tcpflow/192.104.039.168.00080-192.168.002.064.59740</filename>
+      <filesize>26850</filesize>
+      <tcpflow startime='2018-12-16T14:44:40.546935Z' endtime='2018-12-16T14:44:41.373410Z' mac_daddr='78:e4:00:6b:58:1a' mac_saddr='b8:ee:0e:bb:4d:bc' family='2' src_ipn='192.104.39.168' dst_ipn='192.168.2.64' srcport='80' dstport='59740' packets='24' len='28442' />
+      <hashdigest type='MD5'>ab054f4cd9a8e1c2fb0bea0f661911e7</hashdigest>
+    <byte_runs>
+     <byte_run file_offset='351'><fileobject><filename>plantlist_tcpflow/192.104.039.168.00080-192.168.002.064.59740-HTTPBODY-001.js</filename><filesize>8913</filesize></fileobject></byte_run>
+     <byte_run file_offset='4188'><fileobject><filename>plantlist_tcpflow/192.104.039.168.00080-192.168.002.064.59740-HTTPBODY-005.jpg</filename><filesize>22662</filesize></fileobject></byte_run>
+    </byte_runs>
+    </fileobject>
+    <fileobject>
+      <filename>plantlist_tcpflow/192.168.002.064.59744-192.104.039.168.00080</filename>
+      <filesize>3610</filesize>
+      <tcpflow startime='2018-12-16T14:44:40.427074Z' endtime='2018-12-16T14:44:41.535235Z' mac_daddr='b8:ee:0e:bb:4d:bc' mac_saddr='78:e4:00:6b:58:1a' family='2' src_ipn='192.168.2.64' dst_ipn='192.104.39.168' srcport='59744' dstport='80' packets='26' len='5334' />
+      <hashdigest type='MD5'>f01935b4be8b6a6f65089ea7b3a81a83</hashdigest>
+    </fileobject>
+    <fileobject>
+      <filename>plantlist_tcpflow/192.104.039.168.00080-192.168.002.064.59730</filename>
+      <filesize>31373</filesize>
+      <tcpflow startime='2018-12-16T14:44:40.132595Z' endtime='2018-12-16T14:44:41.374579Z' mac_daddr='78:e4:00:6b:58:1a' mac_saddr='b8:ee:0e:bb:4d:bc' family='2' src_ipn='192.104.39.168' dst_ipn='192.168.2.64' srcport='80' dstport='59730' packets='29' len='33295' />
+      <hashdigest type='MD5'>466dbbb94ac970e56f8912ba3b5cc377</hashdigest>
+    <byte_runs>
+     <byte_run file_offset='338'><fileobject><filename>plantlist_tcpflow/192.104.039.168.00080-192.168.002.064.59730-HTTPBODY-001.html</filename><filesize>8501</filesize></fileobject></byte_run>
+     <byte_run file_offset='3746'><fileobject><filename>plantlist_tcpflow/192.104.039.168.00080-192.168.002.064.59730-HTTPBODY-002.js</filename><filesize>77746</filesize></fileobject></byte_run>
+    </byte_runs>
+    </fileobject>
+    <fileobject>
+      <filename>plantlist_tcpflow/192.168.002.064.59742-192.104.039.168.00080</filename>
+      <filesize>3610</filesize>
+      <tcpflow startime='2018-12-16T14:44:40.426870Z' endtime='2018-12-16T14:44:41.455036Z' mac_daddr='b8:ee:0e:bb:4d:bc' mac_saddr='78:e4:00:6b:58:1a' family='2' src_ipn='192.168.2.64' dst_ipn='192.104.39.168' srcport='59742' dstport='80' packets='24' len='5202' />
+      <hashdigest type='MD5'>c9c6a3ba8eeda97a7bcfc972a1931982</hashdigest>
+    </fileobject>
+    <fileobject>
+      <filename>plantlist_tcpflow/192.168.002.064.59730-192.104.039.168.00080</filename>
+      <filesize>5274</filesize>
+      <tcpflow startime='2018-12-16T14:44:40.080678Z' endtime='2018-12-16T14:44:41.415024Z' mac_daddr='b8:ee:0e:bb:4d:bc' mac_saddr='78:e4:00:6b:58:1a' family='2' src_ipn='192.168.2.64' dst_ipn='192.104.39.168' srcport='59730' dstport='80' packets='33' len='7460' />
+      <hashdigest type='MD5'>5286ff9655088dac5d24bb69da235081</hashdigest>
+    </fileobject>
+    <fileobject>
+      <filename>plantlist_tcpflow/192.168.002.064.59736-192.104.039.168.00080</filename>
+      <filesize>5116</filesize>
+      <tcpflow startime='2018-12-16T14:44:40.423874Z' endtime='2018-12-16T14:44:41.419035Z' mac_daddr='b8:ee:0e:bb:4d:bc' mac_saddr='78:e4:00:6b:58:1a' family='2' src_ipn='192.168.2.64' dst_ipn='192.104.39.168' srcport='59736' dstport='80' packets='19' len='6390' />
+      <hashdigest type='MD5'>e21110ce8005456f0b8f70a25627b005</hashdigest>
+    </fileobject>
+    <fileobject>
+      <filename>plantlist_tcpflow/192.104.039.168.00080-192.168.002.064.59744</filename>
+      <filesize>46349</filesize>
+      <tcpflow startime='2018-12-16T14:44:40.618870Z' endtime='2018-12-16T14:44:41.478880Z' mac_daddr='78:e4:00:6b:58:1a' mac_saddr='b8:ee:0e:bb:4d:bc' family='2' src_ipn='192.104.39.168' dst_ipn='192.168.2.64' srcport='80' dstport='59744' packets='38' len='48865' />
+      <hashdigest type='MD5'>befe2f23687ba5f382045c084ec71305</hashdigest>
+    <byte_runs>
+     <byte_run file_offset='350'><fileobject><filename>plantlist_tcpflow/192.104.039.168.00080-192.168.002.064.59744-HTTPBODY-001.js</filename><filesize>3880</filesize></fileobject></byte_run>
+     <byte_run file_offset='2820'><fileobject><filename>plantlist_tcpflow/192.104.039.168.00080-192.168.002.064.59744-HTTPBODY-005.jpg</filename><filesize>43529</filesize></fileobject></byte_run>
+    </byte_runs>
+    </fileobject>
+    <fileobject>
+      <filename>plantlist_tcpflow/192.168.002.064.59738-192.104.039.168.00080</filename>
+      <filesize>5103</filesize>
+      <tcpflow startime='2018-12-16T14:44:40.424700Z' endtime='2018-12-16T14:44:41.567044Z' mac_daddr='b8:ee:0e:bb:4d:bc' mac_saddr='78:e4:00:6b:58:1a' family='2' src_ipn='192.168.2.64' dst_ipn='192.104.39.168' srcport='59738' dstport='80' packets='31' len='7169' />
+      <hashdigest type='MD5'>e4b7adaf4b150d0caa53e12641a0da29</hashdigest>
+    </fileobject>
+    <fileobject>
+      <filename>plantlist_tcpflow/192.168.002.064.59740-192.104.039.168.00080</filename>
+      <filesize>3586</filesize>
+      <tcpflow startime='2018-12-16T14:44:40.425525Z' endtime='2018-12-16T14:44:41.373434Z' mac_daddr='b8:ee:0e:bb:4d:bc' mac_saddr='78:e4:00:6b:58:1a' family='2' src_ipn='192.168.2.64' dst_ipn='192.104.39.168' srcport='59740' dstport='80' packets='19' len='4848' />
+      <hashdigest type='MD5'>8b0892d9fef5dbc2e26412e5e08ecbba</hashdigest>
+    </fileobject>
+  </configuration>
+  <summary><ssids>
+</ssids>
+</summary>
+  <open_fds_at_end>12</open_fds_at_end>
+  <max_open_flows>12</max_open_flows>
+  <total_flows>12</total_flows>
+  <flow_map_size>12</flow_map_size>
+  <total_packets>336</total_packets>
+  <rusage>
+    <utime>0.068000</utime>
+    <stime>0.012000</stime>
+    <maxrss>13608</maxrss>
+    <minflt>1262</minflt>
+    <majflt>11</majflt>
+    <nswap>0</nswap>
+    <inblock>1760</inblock>
+    <oublock>1176</oublock>
+    <clocktime>0.070568</clocktime>
+  </rusage>
+</dfxml>
